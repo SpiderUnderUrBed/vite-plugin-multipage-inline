@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-inline-multipage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vite plugin that inlines multi-paged applications (like in svelte) to multiple html files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
