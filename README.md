@@ -6,7 +6,7 @@ E.g with vite.config.ts
 ```
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import inlineEverythingPlugin from 'vite-plugin-inline-everything';
+import inlineEverythingPlugin from 'vite-plugin-inline-multipage';
 
 export default defineConfig({
   base: './',
