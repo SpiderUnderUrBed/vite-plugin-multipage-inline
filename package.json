@@ -4,6 +4,7 @@
   "description": "A Vite plugin that inlines multi-paged applications (like in svelte) to multiple html files",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist"
   ],
