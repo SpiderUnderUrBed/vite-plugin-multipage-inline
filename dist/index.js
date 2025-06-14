@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 import * as cheerio from 'cheerio';
 export default function inlineEverythingPlugin(options) {
-    const { buildDir = 'build', cleanUp = true } = options || {};
+    const { buildDir = 'build', cleanUp = false } = options || {};
     return {
         name: 'inline-everything',
         apply: 'build',
