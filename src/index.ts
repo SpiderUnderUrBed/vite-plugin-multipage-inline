@@ -19,7 +19,7 @@ export interface InlineEverythingOptions {
 export default function inlineEverythingPlugin(options?: InlineEverythingOptions): Plugin {
   const {
     buildDir = 'build',
-    cleanUp = true
+    cleanUp = false
   } = options || {};
 
   return {
