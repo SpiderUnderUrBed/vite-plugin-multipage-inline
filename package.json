@@ -32,7 +32,7 @@
     "url": "https://github.com/SpiderUnderUrBed/vite-plugin-multipage-inline.git"
   },
   "peerDependencies": {
-    "vite": "^6.2.6"
+     "vite": ">=5"
   },
   "dependencies": {
     "cheerio": "^1.1.0",
